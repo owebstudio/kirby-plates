@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0',
+        'version' => '1.0.0.0',
+        'type' => 'kirby-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'clicktonext/kirby-plates',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'clicktonext/kirby-plates' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'kirby-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'getkirby/composer-installer' => array(
+            'pretty_version' => '1.2.1',
+            'version' => '1.2.1.0',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/../getkirby/composer-installer',
+            'aliases' => array(),
+            'reference' => 'c98ece30bfba45be7ce457e1102d1b169d922f3d',
+            'dev_requirement' => false,
+        ),
+        'league/plates' => array(
+            'pretty_version' => 'v3.4.0',
+            'version' => '3.4.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../league/plates',
+            'aliases' => array(),
+            'reference' => '6d3ee31199b536a4e003b34a356ca20f6f75496a',
+            'dev_requirement' => false,
+        ),
+    ),
+);
