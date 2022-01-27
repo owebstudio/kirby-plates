@@ -9,9 +9,10 @@
     "kirby-3",
     "kirby3-plugin",
     "kirby-plugin",
+    "clicktonext-plugin",
     "kirby-template",
     "kirby-template-engine",
-    "kirby-plates"
+    "native-php-templates"
   ],
   "authors": [
     {
@@ -34,6 +35,9 @@
     "psr-4": {
       "ClickToNext\\": "src/"
     }
+  },
+  "extra": {
+    "installer-name": "kirby-plates"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
