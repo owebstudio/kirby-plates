@@ -13,6 +13,13 @@ class Template extends \Kirby\Cms\Template
     public function render(array $data = []): string
     {
         $templates = new Engine($this->root());
-        return $templates->render($this->name(), $data);
+
+        // get relative path
+        $name = ltrim(str_replace(realpath($this->root()), '', realpath($this->file())), '\\/');
+
+        // remove extension
+        $name = substr($name, 0, strrpos($name, "."));
+
+        return $templates->render($name, $data);
     }
 }
