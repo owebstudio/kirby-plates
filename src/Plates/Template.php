@@ -1,8 +1,10 @@
 <?php
 
-namespace ClickToNext\Plates;
+namespace KirbyNext\Plates;
 
-class Template extends \League\Plates\Template\Template
+use League\Plates\Template\Template as PlatesTemplate;
+
+class Template extends PlatesTemplate
 {
     /**
      * Set the template's layout.

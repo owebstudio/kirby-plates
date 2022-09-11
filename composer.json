@@ -1,30 +1,34 @@
 {
-  "name": "clicktonext/kirby-plates",
-  "description": "Plates native PHP template engine/system for Kirby 3",
+  "name": "kirbynext/kirby-plates",
+  "description": "Plates native PHP template engine/system for Kirby 3.",
   "type": "kirby-plugin",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "MIT",
   "keywords": [
     "kirby",
     "kirby-3",
+    "kirbynext",
     "kirby3-plugin",
     "kirby-plugin",
-    "clicktonext-plugin",
+    "kirbynext-plugin",
     "kirby-template",
     "kirby-template-engine",
     "native-php-templates"
   ],
   "authors": [
     {
-      "name": "Click to Next",
-      "email": "support@clicktonext.com",
-      "homepage": "https://clicktonext.com"
+      "name": "Kirby Next",
+      "email": "support@kirbynext.com",
+      "homepage": "https://kirbynext.com"
     }
   ],
   "config": {
     "optimize-autoloader": true,
     "preferred-install": "dist",
-    "sort-packages": true
+    "sort-packages": true,
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    }
   },
   "require": {
     "php": "^7.4|^8.0",
@@ -33,7 +37,7 @@
   },
   "autoload": {
     "psr-4": {
-      "ClickToNext\\": "src/"
+      "KirbyNext\\": "src/"
     }
   },
   "extra": {

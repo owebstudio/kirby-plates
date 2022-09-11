@@ -1,11 +1,11 @@
 <?php
 
 use Kirby\Cms\App as Kirby;
-use ClickToNext\Template;
+use KirbyNext\Template;
 
 @include_once __DIR__ . "/vendor/autoload.php";
 
-Kirby::plugin('clicktonext/kirby-plates', [
+Kirby::plugin('kirbynext/kirby-plates', [
     'components' => [
         'template' => function (Kirby $kirby, string $name, string $type = 'html', string $defaultType = 'html') {
             return new Template($name, $type, $defaultType);

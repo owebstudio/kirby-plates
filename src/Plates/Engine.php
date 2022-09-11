@@ -1,7 +1,6 @@
 <?php
 
-namespace ClickToNext\Plates;
-
+namespace KirbyNext\Plates;
 
 class Engine extends \League\Plates\Engine
 {

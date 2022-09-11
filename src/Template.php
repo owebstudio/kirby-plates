@@ -1,10 +1,11 @@
 <?php
 
-namespace ClickToNext;
+namespace KirbyNext;
 
-use ClickToNext\Plates\Engine;
+use Kirby\Cms\Template as BaseTemplate;
+use KirbyNext\Plates\Engine;
 
-class Template extends \Kirby\Cms\Template
+class Template extends BaseTemplate
 {
     /**
      * @param array $data
