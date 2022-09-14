@@ -1,25 +1,25 @@
 {
-  "name": "kirbynext/kirby-plates",
+  "name": "owebstudio/kirby-plates",
   "description": "Plates native PHP template engine/system for Kirby 3.",
   "type": "kirby-plugin",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "license": "MIT",
   "keywords": [
+    "owebstudio",
+    "owebstudio-plugin",
     "kirby",
     "kirby-3",
-    "kirbynext",
     "kirby3-plugin",
     "kirby-plugin",
-    "kirbynext-plugin",
     "kirby-template",
     "kirby-template-engine",
     "native-php-templates"
   ],
   "authors": [
     {
-      "name": "Kirby Next",
-      "email": "support@kirbynext.com",
-      "homepage": "https://kirbynext.com"
+      "name": "oweb studio",
+      "email": "support@owebstudio.com",
+      "homepage": "https://owebstudio.com"
     }
   ],
   "config": {
@@ -37,7 +37,7 @@
   },
   "autoload": {
     "psr-4": {
-      "KirbyNext\\": "src/"
+      "Oweb\\": "src/"
     }
   },
   "extra": {

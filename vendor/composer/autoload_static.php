@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInit84d1062437f985b42da6bd024a5ec134
 {
     public static $prefixLengthsPsr4 = array (
+        'O' => 
+        array (
+            'Oweb\\' => 5,
+        ),
         'L' => 
         array (
             'League\\Plates\\' => 14,
@@ -14,11 +18,14 @@ class ComposerStaticInit84d1062437f985b42da6bd024a5ec134
         'K' => 
         array (
             'Kirby\\' => 6,
-            'KirbyNext\\' => 10,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Oweb\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'League\\Plates\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/plates/src',
@@ -26,10 +33,6 @@ class ComposerStaticInit84d1062437f985b42da6bd024a5ec134
         'Kirby\\' => 
         array (
             0 => __DIR__ . '/..' . '/getkirby/composer-installer/src',
-        ),
-        'KirbyNext\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
@@ -52,6 +55,9 @@ class ComposerStaticInit84d1062437f985b42da6bd024a5ec134
         'League\\Plates\\Template\\Functions' => __DIR__ . '/..' . '/league/plates/src/Template/Functions.php',
         'League\\Plates\\Template\\Name' => __DIR__ . '/..' . '/league/plates/src/Template/Name.php',
         'League\\Plates\\Template\\Template' => __DIR__ . '/..' . '/league/plates/src/Template/Template.php',
+        'Oweb\\Plates\\Engine' => __DIR__ . '/../..' . '/src/Plates/Engine.php',
+        'Oweb\\Plates\\Template' => __DIR__ . '/../..' . '/src/Plates/Template.php',
+        'Oweb\\Template' => __DIR__ . '/../..' . '/src/Template.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

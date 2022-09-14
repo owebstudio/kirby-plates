@@ -1,6 +1,6 @@
 <?php
 
-namespace KirbyNext\Plates;
+namespace Oweb\Plates;
 
 use League\Plates\Template\Template as PlatesTemplate;
 

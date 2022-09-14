@@ -24,4 +24,7 @@ return array(
     'League\\Plates\\Template\\Functions' => $vendorDir . '/league/plates/src/Template/Functions.php',
     'League\\Plates\\Template\\Name' => $vendorDir . '/league/plates/src/Template/Name.php',
     'League\\Plates\\Template\\Template' => $vendorDir . '/league/plates/src/Template/Template.php',
+    'Oweb\\Plates\\Engine' => $baseDir . '/src/Plates/Engine.php',
+    'Oweb\\Plates\\Template' => $baseDir . '/src/Plates/Template.php',
+    'Oweb\\Template' => $baseDir . '/src/Template.php',
 );

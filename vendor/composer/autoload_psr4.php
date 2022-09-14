@@ -6,7 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Oweb\\' => array($baseDir . '/src'),
     'League\\Plates\\' => array($vendorDir . '/league/plates/src'),
     'Kirby\\' => array($vendorDir . '/getkirby/composer-installer/src'),
-    'KirbyNext\\' => array($baseDir . '/src'),
 );

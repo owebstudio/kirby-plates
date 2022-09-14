@@ -1,6 +1,6 @@
 <?php
 
-namespace KirbyNext\Plates;
+namespace Oweb\Plates;
 
 class Engine extends \League\Plates\Engine
 {

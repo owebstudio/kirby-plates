@@ -1,9 +1,9 @@
 <?php
 
-namespace KirbyNext;
+namespace Oweb;
 
 use Kirby\Cms\Template as BaseTemplate;
-use KirbyNext\Plates\Engine;
+use Oweb\Plates\Engine;
 
 class Template extends BaseTemplate
 {

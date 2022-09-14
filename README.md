@@ -17,13 +17,13 @@ All the documentation about Plates template engine is in the [official documenta
 ### With composer
 
 ```ssh
-composer require kirbynext/kirby-plates
+composer require owebstudio/kirby-plates
 ```
 
 ### Git submodule
 
 ```ssh
-git submodule add https://github.com/kirbynext/kirby-plates.git site/plugins/kirby-plates
+git submodule add https://github.com/owebstudio/kirby-plates.git site/plugins/kirby-plates
 ```
 
 ### Sample usage
