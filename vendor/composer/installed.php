@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
-        'name' => 'owebstudio/kirby-plates',
-        'pretty_version' => '1.1.2',
-        'version' => '1.1.2.0',
+        'name' => 'owebstudio/plates',
+        'pretty_version' => '1.1.3',
+        'version' => '1.1.3.0',
         'reference' => NULL,
         'type' => 'kirby-plugin',
         'install_path' => __DIR__ . '/../../',
@@ -28,9 +28,9 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'owebstudio/kirby-plates' => array(
-            'pretty_version' => '1.1.2',
-            'version' => '1.1.2.0',
+        'owebstudio/plates' => array(
+            'pretty_version' => '1.1.3',
+            'version' => '1.1.3.0',
             'reference' => NULL,
             'type' => 'kirby-plugin',
             'install_path' => __DIR__ . '/../../',
