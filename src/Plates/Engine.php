@@ -4,8 +4,11 @@ namespace Oweb\Plates;
 
 class Engine extends \League\Plates\Engine
 {
-    public function make($name)
+    public function make($name, array $data = array())
     {
-        return new Template($this, $name);
+        $template = new Template($this, $name);
+        $template->data($data);
+
+        return $template;
     }
 }
