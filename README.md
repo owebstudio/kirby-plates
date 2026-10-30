@@ -1,3 +1,5 @@
+![Plates, a legacy Kirby plugin by oweb studio. Use the Plates template engine for your templates.](.github/cover.png)
+
 # Kirby Plates
 
 > [!NOTE]
