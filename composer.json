@@ -1,8 +1,7 @@
 {
   "name": "owebstudio/kirby-plates",
-  "description": "Plates native PHP template engine/system for Kirby 3.",
+  "description": "Plates native PHP template engine/system for Kirby.",
   "type": "kirby-plugin",
-  "version": "1.1.3",
   "license": "MIT",
   "keywords": [
     "owebstudio",
@@ -39,14 +38,18 @@
     "getkirby/composer-installer": "^1.2",
     "league/plates": "^3.0"
   },
+  "conflict": {
+    "getkirby/cms": ">=6.0"
+  },
   "autoload": {
     "psr-4": {
       "Oweb\\": "src/"
     }
   },
   "extra": {
-    "installer-name": "kirby-plates"
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+    "installer-name": "kirby-plates",
+    "kirby": {
+      "compatible": "^3.0 || ^4.0 || ^5.0"
+    }
+  }
 }
