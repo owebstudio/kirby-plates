@@ -7,30 +7,30 @@ namespace Composer\Autoload;
 class ComposerStaticInit84d1062437f985b42da6bd024a5ec134
 {
     public static $prefixLengthsPsr4 = array (
-        'O' => 
+        'O' =>
         array (
             'Oweb\\' => 5,
         ),
-        'L' => 
+        'L' =>
         array (
             'League\\Plates\\' => 14,
         ),
-        'K' => 
+        'K' =>
         array (
             'Kirby\\' => 6,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Oweb\\' => 
+        'Oweb\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
-        'League\\Plates\\' => 
+        'League\\Plates\\' =>
         array (
             0 => __DIR__ . '/..' . '/league/plates/src',
         ),
-        'Kirby\\' => 
+        'Kirby\\' =>
         array (
             0 => __DIR__ . '/..' . '/getkirby/composer-installer/src',
         ),
@@ -43,6 +43,7 @@ class ComposerStaticInit84d1062437f985b42da6bd024a5ec134
         'Kirby\\ComposerInstaller\\Plugin' => __DIR__ . '/..' . '/getkirby/composer-installer/src/ComposerInstaller/Plugin.php',
         'Kirby\\ComposerInstaller\\PluginInstaller' => __DIR__ . '/..' . '/getkirby/composer-installer/src/ComposerInstaller/PluginInstaller.php',
         'League\\Plates\\Engine' => __DIR__ . '/..' . '/league/plates/src/Engine.php',
+        'League\\Plates\\Exception\\TemplateNotFound' => __DIR__ . '/..' . '/league/plates/src/Exception/TemplateNotFound.php',
         'League\\Plates\\Extension\\Asset' => __DIR__ . '/..' . '/league/plates/src/Extension/Asset.php',
         'League\\Plates\\Extension\\ExtensionInterface' => __DIR__ . '/..' . '/league/plates/src/Extension/ExtensionInterface.php',
         'League\\Plates\\Extension\\URI' => __DIR__ . '/..' . '/league/plates/src/Extension/URI.php',
@@ -54,7 +55,11 @@ class ComposerStaticInit84d1062437f985b42da6bd024a5ec134
         'League\\Plates\\Template\\Func' => __DIR__ . '/..' . '/league/plates/src/Template/Func.php',
         'League\\Plates\\Template\\Functions' => __DIR__ . '/..' . '/league/plates/src/Template/Functions.php',
         'League\\Plates\\Template\\Name' => __DIR__ . '/..' . '/league/plates/src/Template/Name.php',
+        'League\\Plates\\Template\\ResolveTemplatePath' => __DIR__ . '/..' . '/league/plates/src/Template/ResolveTemplatePath.php',
+        'League\\Plates\\Template\\ResolveTemplatePath\\NameAndFolderResolveTemplatePath' => __DIR__ . '/..' . '/league/plates/src/Template/ResolveTemplatePath/NameAndFolderResolveTemplatePath.php',
+        'League\\Plates\\Template\\ResolveTemplatePath\\ThemeResolveTemplatePath' => __DIR__ . '/..' . '/league/plates/src/Template/ResolveTemplatePath/ThemeResolveTemplatePath.php',
         'League\\Plates\\Template\\Template' => __DIR__ . '/..' . '/league/plates/src/Template/Template.php',
+        'League\\Plates\\Template\\Theme' => __DIR__ . '/..' . '/league/plates/src/Template/Theme.php',
         'Oweb\\Plates\\Engine' => __DIR__ . '/../..' . '/src/Plates/Engine.php',
         'Oweb\\Plates\\Template' => __DIR__ . '/../..' . '/src/Plates/Template.php',
         'Oweb\\Template' => __DIR__ . '/../..' . '/src/Template.php',
